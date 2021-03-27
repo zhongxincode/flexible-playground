@@ -1,13 +1,43 @@
-body {
+@import '~antd/dist/antd.css';
+@import "~normalize.css";
+
+/* 样式的重置 */
+body, html, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, header, menu, section, p, input, td, th, ins {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  background-color: #dfe6e9;
+}
+ul, ol, li {
+  list-style: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover {
+  color: #666;
+  text-decoration: underline;
+}
+
+i, em {
+  font-style: normal;
+}
+
+input, textarea, button, select, a {
+  outline: none;
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
 }
